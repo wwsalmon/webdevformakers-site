@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #222;
+}
+
+.font-display {
+    font-family: "Eczar", serif;
+}
+
+.underline-links a {
+    text-decoration: underline;
+    @apply text-brand;
+}
+
+hr {
+    border-color: #222;
+}

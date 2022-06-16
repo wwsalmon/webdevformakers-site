@@ -3,7 +3,13 @@ module.exports = {
         './**/*.html',
         './**/*.tsx',
     ],
-    theme: {},
+    theme: {
+        extend: {
+            colors: {
+                brand: "#0026ff",
+            }
+        }
+    },
     variants: {},
     plugins: [],
 }
