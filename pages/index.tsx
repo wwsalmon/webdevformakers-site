@@ -1,13 +1,18 @@
+import Head from "next/head";
+
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Web dev for makers: learn to build webapps in four weeks</title>
+            </Head>
             <div className="max-w-5xl mx-auto my-24 px-6">
                 <p className="text-brand uppercase font-bold text-xl sm:text-2xl text-center">web dev for makers</p>
                 <h1 className="font-display text-6xl sm:text-7xl md:text-8xl leading-[1.2] sm:leading-[1.2] md:leading-[1.2] my-12 sm:my-16 text-center">
                     From <b>zero experience</b> to <b>building webapps</b> in <b>four weeks</b>
                 </h1>
                 <div className="sm:flex items-center sm:text-xl leading-normal -mx-4 underline-links">
-                    <div className="sm:w-1/2 px-4 mb-8 sm:mb-0 text-center sm:text-right">
+                    <div className="sm:w-1/2 px-4 mb-8 sm:mb-0 text-center sm:text-left">
                         <p>A <b>project-based fullstack dev course</b> that cuts the fat and just <b>teaches you to build, build, build.</b></p>
                     </div>
                     <div className="sm:w-1/2 px-4 text-center sm:text-right">
