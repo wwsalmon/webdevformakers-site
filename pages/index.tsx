@@ -44,10 +44,10 @@ export default function Home() {
                     <div className="md:w-2/3 sm:px-8">
                         <DisplayHeader>In-person, <b>project-based learning</b></DisplayHeader>
                         <Paragraph>Come out of each lesson knowing <b>how to build something new.</b> Learn and build in a beautiful space in downtown Manhattan.</Paragraph>
-                        <Paragraph className="underline-links mt-6 opacity-50"><a href="https://contrary.com/">Contrary Capital office</a> in Flatiron District →</Paragraph>
+                        <Paragraph className="mt-6 opacity-50">Class space in Flatiron District →</Paragraph>
                     </div>
                     <div className="md:w-1/3 sm:px-8 mt-8 sm:mt-0">
-                        <img src="/contrary.jpg" alt="photo of contrary capital office"/>
+                        <img src="/contrary.jpg" alt="photo of Manhattan office"/>
                     </div>
                 </div>
             </Section>
