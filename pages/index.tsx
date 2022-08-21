@@ -75,7 +75,7 @@ export default function Home() {
                     <SectionLeft>
                         <DisplayHeader><b>Tried and true</b> curriculum</DisplayHeader>
                         <p className="text-xl sm:text-2xl uppercase font-bold mr-6 mb-8">pilot cohort<br className="sm:hidden"/> <span className="text-brand"><span className="font-black">nyc</span> june 27 - july 20</span></p>
-                        <LinkButton href="/videos">Get notified about future cohorts</LinkButton>
+                        <LinkButton href="https://docs.google.com/forms/d/e/1FAIpQLSdaeQV8ILYO5guoWKih6Ppe9jY1fq2lntYlg80pWxWeexx_oA/viewform?usp=sf_link">Get notified about future cohorts</LinkButton>
                     </SectionLeft>
                     <SectionRight>
                         <img src="/pilot.jpg" alt="photo of Manhattan office" className="rounded-md"/>
